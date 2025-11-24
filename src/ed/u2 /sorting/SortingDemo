@@ -1,0 +1,232 @@
+package ed.u2.sorting;
+
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.*;
+import java.time.*;
+import java.time.format.DateTimeFormatter;
+import java.util.*;
+
+/**
+ * SortingDemo
+ *
+ * - Lee los 4 datasets con nombres exactos:
+ *   citas_100.csv
+ *   citas_100_casi_ordenadas.csv
+ *   pacientes_500.csv
+ *   inventario_500_inverso.csv
+ *
+ * - Convierte cada dataset a int[] clave:
+ *   * citas_* : clave = epoch minutes de fechaHora (ISO format YYYY-MM-DDTHH:MM)
+ *   * pacientes_500 : apellido -> mapping estable a entero (mapa)
+ *   * inventario_500_inverso : stock (parseInt directo)
+ *
+ * - Para cada dataset y para cada algoritmo (Bubble, Selection, Insertion)
+ *   ejecuta R repeticiones (recomiendo R=10), descarta las primeras 3, toma mediana
+ *   y produce una fila en resultados_ordenacion.csv con:
+ *     dataset,n,algoritmo,median_time_ns,median_comparisons,median_swaps,median_shifts
+ *
+ * Notas:
+ * - El CSV de salida usa ',' como separador (es un resumen), los datasets de entrada usan ';'.
+ * - Reproducibilidad: sorting no usa RNG. Los datasets deben ser reproducibles por separado.
+ */
+public class SortingDemo {
+
+    private static final DateTimeFormatter ISO_MINUTE = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm");
+    private static final ZoneOffset ZONE = ZoneOffset.UTC; // consistente para epoch minutes
+
+    // datasets (archivos)
+    private static final String[] DATASETS = {
+            "citas_100.csv",
+            "citas_100_casi_ordenadas.csv",
+            "pacientes_500.csv",
+            "inventario_500_inverso.csv"
+    };
+
+    private static final int R = 10;       // repeticiones por algoritmo (R > 3)
+    private static final int DISCARD = 3;  // descartar primeras DISCARD ejecuciones
+
+    public static void main(String[] args) {
+        SortingDemo demo = new SortingDemo();
+        List<String> out = new ArrayList<>();
+        out.add("dataset;n;algoritmo;median_time_ns;median_comparisons;median_swaps;median_shifts");
+
+        for (String dataset : DATASETS) {
+            try {
+                System.out.println("Cargando dataset: " + dataset);
+                Dataset d = demo.loadDataset(dataset);
+                System.out.println(" - n = " + d.n);
+                // ejecutar por cada algoritmo
+                runAndRecord(d, "BubbleSort", out);
+                runAndRecord(d, "SelectionSort", out);
+                runAndRecord(d, "InsertionSort", out);
+            } catch (IOException ex) {
+                System.err.println("Error al leer " + dataset + ": " + ex.getMessage());
+            }
+        }
+
+        // escribir CSV resumen
+        Path outFile = Paths.get("resultados_ordenacion.csv");
+        try (BufferedWriter bw = Files.newBufferedWriter(outFile, StandardCharsets.UTF_8,
+                StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
+            for (String line : out) bw.write(line + "\n");
+            System.out.println("Resultados escritos en " + outFile.toAbsolutePath());
+        } catch (IOException e) {
+            System.err.println("No pudo escribir resultados: " + e.getMessage());
+        }
+    }
+
+    // Crea un Dataset con int[] claves (list) y n
+    private Dataset loadDataset(String filename) throws IOException {
+        Path p = Paths.get(filename);
+        if (!Files.exists(p)) throw new IOException("Archivo no encontrado: " + filename);
+        List<String> lines = Files.readAllLines(p, StandardCharsets.UTF_8);
+        if (lines.isEmpty()) throw new IOException("Archivo vacío: " + filename);
+
+        // remove BOM on first line if present
+        if (lines.get(0).startsWith("\uFEFF")) {
+            lines.set(0, lines.get(0).substring(1));
+        }
+
+        String header = lines.get(0).trim();
+        List<String> data = lines.subList(1, lines.size());
+
+        if (filename.startsWith("citas")) {
+            // formato: id;apellido;fechaHora
+            int n = data.size();
+            int[] arr = new int[n];
+            for (int i = 0; i < n; i++) {
+                String[] cols = splitLine(data.get(i));
+                // cols[2] = fechaHora YYYY-MM-DDTHH:MM
+                arr[i] = (int) toEpochMinutes(cols[2]);
+            }
+            return new Dataset(filename, arr);
+        } else if (filename.startsWith("pacientes")) {
+            // formato: id;apellido;prioridad
+            // mapear apellido -> entero estable (encuentro orden de aparición)
+            Map<String, Integer> map = new HashMap<>();
+            int nextId = 1;
+            int n = data.size();
+            int[] arr = new int[n];
+            for (int i = 0; i < n; i++) {
+                String[] cols = splitLine(data.get(i));
+                String apellido = cols[1];
+                Integer v = map.get(apellido);
+                if (v == null) {
+                    v = nextId++;
+                    map.put(apellido, v);
+                }
+                arr[i] = v;
+            }
+            return new Dataset(filename, arr);
+        } else if (filename.startsWith("inventario")) {
+            // formato: id;insumo;stock
+            int n = data.size();
+            int[] arr = new int[n];
+            for (int i = 0; i < n; i++) {
+                String[] cols = splitLine(data.get(i));
+                arr[i] = Integer.parseInt(cols[2]);
+            }
+            return new Dataset(filename, arr);
+        } else {
+            throw new IOException("Dataset no reconocido: " + filename);
+        }
+    }
+
+    // Splits a CSV line that uses ';' as separator. Trims whitespace.
+    private String[] splitLine(String line) {
+        String[] cols = line.split(";", -1);
+        for (int i = 0; i < cols.length; i++) cols[i] = cols[i].trim();
+        return cols;
+    }
+
+    private long toEpochMinutes(String isoDateTime) {
+        LocalDateTime dt = LocalDateTime.parse(isoDateTime, ISO_MINUTE);
+        long epochSec = dt.toEpochSecond(ZONE);
+        return epochSec / 60; // minutes
+    }
+
+    // Run algorithms and append CSV lines to out list
+    private static void runAndRecord(Dataset d, String algorithmName, List<String> out) {
+        System.out.println(" Ejecutando " + algorithmName + " en " + d.name);
+        // prepare arrays for R runs
+        long[] times = new long[R - DISCARD];
+        long[] comps = new long[R - DISCARD];
+        long[] swaps = new long[R - DISCARD];
+        long[] shifts = new long[R - DISCARD];
+
+        // choose sorter
+        BubbleSort bubble = new BubbleSort();
+        SelectionSort selection = new SelectionSort();
+        InsertionSort insertion = new InsertionSort();
+
+        int recordIndex = 0; // index for storing in arrays after discards
+        for (int run = 1; run <= R; run++) {
+            int[] copy = SortingUtils.copyArray(d.data);
+            SortingStats stats = new SortingStats();
+            // choose which algorithm
+            switch (algorithmName) {
+                case "BubbleSort":
+                    bubble.sort(copy, stats);
+                    break;
+                case "SelectionSort":
+                    selection.sort(copy, stats);
+                    break;
+                case "InsertionSort":
+                    insertion.sort(copy, stats);
+                    break;
+                default:
+                    throw new IllegalArgumentException("Algoritmo desconocido: " + algorithmName);
+            }
+            // optional verification: array is sorted ascending
+            if (!isSortedAscending(copy)) {
+                System.err.printf("Warning: resultado no ordenado correctamente: %s run=%d\n", algorithmName, run);
+            }
+
+            System.out.printf("  run %d: time=%d ns, comps=%d, swaps=%d, shifts=%d\n",
+                    run, stats.nanoTime, stats.comparisons, stats.swaps, stats.shifts);
+
+            if (run > DISCARD) {
+                int pos = recordIndex++;
+                times[pos] = stats.nanoTime;
+                comps[pos] = stats.comparisons;
+                swaps[pos] = stats.swaps;
+                shifts[pos] = stats.shifts;
+            }
+        }
+
+        long medianTime = SortingUtils.median(times);
+        long medianComps = SortingUtils.median(comps);
+        long medianSwaps = SortingUtils.median(swaps);
+        long medianShifts = SortingUtils.median(shifts);
+
+        System.out.printf(" => mediana (time=%d ns, comps=%d, swaps=%d, shifts=%d)\n",
+                medianTime, medianComps, medianSwaps, medianShifts);
+
+        // append CSV line
+        String csvLine = String.format("%s;%d;%s;%d;%d;%d;%d",
+                d.name, d.n, algorithmName, medianTime, medianComps, medianSwaps, medianShifts);
+        out.add(csvLine);
+    }
+
+    private static boolean isSortedAscending(int[] a) {
+        if (a == null) return true;
+        for (int i = 1; i < a.length; i++) {
+            if (a[i-1] > a[i]) return false;
+        }
+        return true;
+    }
+
+    // Helper container
+    private static class Dataset {
+        final String name;
+        final int[] data;
+        final int n;
+        Dataset(String name, int[] data) {
+            this.name = name;
+            this.data = data;
+            this.n = data == null ? 0 : data.length;
+        }
+    }
+}
