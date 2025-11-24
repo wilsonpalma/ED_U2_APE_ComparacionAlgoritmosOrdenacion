@@ -14,6 +14,7 @@ El repositorio debe incluir el código Java instrumentado para los algoritmos y 
 - `InsertionSort.java` (contadores de `shifts`).  
 - Helpers: `SortingStats.java`, `SortingUtils.java`.  
 - Harness: `SortingDemo.java` (ejecuta el experimento y produce `results/resultados_ordenacion.csv`).
+- Informe: `docs/APE - Taller 6 - Comparación de Ordenación - Informe.pdf`
 
 **Compilación:**  
 `javac -d out src/sorting/*.java`
@@ -70,7 +71,8 @@ Comprobaciones mínimas a documentar:
 
 - `datasets/` contiene los cuatro CSV con los conteos correctos de filas (100 / 100 / 500 / 500).  
 - `results/resultados_ordenacion.csv` existe y tiene 13 líneas en total (1 cabecera + 12 datos).  
-- `logs/` contiene evidencia de las R ejecuciones por algoritmo y dataset.  
+- `logs/` contiene evidencia de las R ejecuciones por algoritmo y dataset.
+- `docs/APE - Taller 6 - Comparación de Ordenación - Informe.pdf` contiene el informe técnico.
 - No hay trazas ni impresiones activas durante las mediciones finales.  
 - El harness verifica que los resultados queden ordenados.
 

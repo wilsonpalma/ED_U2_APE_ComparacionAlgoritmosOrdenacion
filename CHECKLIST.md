@@ -13,6 +13,7 @@
   - `pacientes_500.csv`
   - `inventario_500_inverso.csv`
 - [x] `/logs/` → salida(s) de ejecución (por ejemplo `logs/salida.txt`)
+- [x] `/docs/APE - Taller 6 - Comparación de Ordenación - Informe.pdf` contiene el informe técnico
 - [x] `resultados_ordenacion.csv` en la raíz del repo (archivo resumen obligatorio)
 - [x] `README.md` y `CHECKLIST.md` en la raíz
 
@@ -53,5 +54,6 @@
 - [x] `datasets/` contiene 4 CSV con conteos: 100 / 100 / 500 / 500.
 - [x] `resultados_ordenacion.csv` existe en la raíz y tiene 13 líneas.
 - [x] `logs/` contiene evidencia de las repeticiones.
+- [x] `docs/` contiene el informe técnico.
 - [x] README e instrucciones están completas y verificables.
 - [x] Realizar un commit final que incluya: `/src/`, `/datasets/`, `/logs/`, `resultados_ordenacion.csv`, `README.md`, `CHECKLIST.md`.
