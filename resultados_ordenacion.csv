@@ -1,4 +1,4 @@
-taset;n;algoritmo;median_time_ns;median_comparisons;median_swaps;median_shifts
+dataset;n;algoritmo;median_time_ns;median_comparisons;median_swaps;median_shifts
 citas_100.csv;100;BubbleSort;385000;4914;2434;0
 citas_100.csv;100;SelectionSort;242900;4950;95;0
 citas_100.csv;100;InsertionSort;145700;2527;0;2434
