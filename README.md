@@ -1,4 +1,4 @@
-# README (secciones obligatorias) - Taller 6: Comparación de Ordenación  
+# README - Taller 6: Comparación de Ordenación  
 **Autores:**
 
 - Marco Orozco
