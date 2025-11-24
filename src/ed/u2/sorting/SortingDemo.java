@@ -79,7 +79,7 @@ public class SortingDemo {
 
     // Crea un Dataset con int[] claves (list) y n
     private Dataset loadDataset(String filename) throws IOException {
-        Path p = Paths.get(filename);
+        Path p = Paths.get("datasets/"+filename);
         if (!Files.exists(p)) throw new IOException("Archivo no encontrado: " + filename);
         List<String> lines = Files.readAllLines(p, StandardCharsets.UTF_8);
         if (lines.isEmpty()) throw new IOException("Archivo vacío: " + filename);
