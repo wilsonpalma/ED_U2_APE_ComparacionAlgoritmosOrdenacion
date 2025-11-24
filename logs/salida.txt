@@ -1,0 +1,153 @@
+Cargando dataset: citas_100.csv
+ - n = 100
+ Ejecutando BubbleSort en citas_100.csv
+  run 1: time=162400 ns, comps=4914, swaps=2434, shifts=0
+  run 2: time=165900 ns, comps=4914, swaps=2434, shifts=0
+  run 3: time=176800 ns, comps=4914, swaps=2434, shifts=0
+  run 4: time=227000 ns, comps=4914, swaps=2434, shifts=0
+  run 5: time=161100 ns, comps=4914, swaps=2434, shifts=0
+  run 6: time=248200 ns, comps=4914, swaps=2434, shifts=0
+  run 7: time=272800 ns, comps=4914, swaps=2434, shifts=0
+  run 8: time=223700 ns, comps=4914, swaps=2434, shifts=0
+  run 9: time=166500 ns, comps=4914, swaps=2434, shifts=0
+  run 10: time=220800 ns, comps=4914, swaps=2434, shifts=0
+ => mediana (time=223700 ns, comps=4914, swaps=2434, shifts=0)
+ Ejecutando SelectionSort en citas_100.csv
+  run 1: time=143900 ns, comps=4950, swaps=95, shifts=0
+  run 2: time=145200 ns, comps=4950, swaps=95, shifts=0
+  run 3: time=94300 ns, comps=4950, swaps=95, shifts=0
+  run 4: time=94300 ns, comps=4950, swaps=95, shifts=0
+  run 5: time=149200 ns, comps=4950, swaps=95, shifts=0
+  run 6: time=146200 ns, comps=4950, swaps=95, shifts=0
+  run 7: time=100900 ns, comps=4950, swaps=95, shifts=0
+  run 8: time=120700 ns, comps=4950, swaps=95, shifts=0
+  run 9: time=93700 ns, comps=4950, swaps=95, shifts=0
+  run 10: time=95500 ns, comps=4950, swaps=95, shifts=0
+ => mediana (time=100900 ns, comps=4950, swaps=95, shifts=0)
+ Ejecutando InsertionSort en citas_100.csv
+  run 1: time=71700 ns, comps=2527, swaps=0, shifts=2434
+  run 2: time=64600 ns, comps=2527, swaps=0, shifts=2434
+  run 3: time=65200 ns, comps=2527, swaps=0, shifts=2434
+  run 4: time=75600 ns, comps=2527, swaps=0, shifts=2434
+  run 5: time=64800 ns, comps=2527, swaps=0, shifts=2434
+  run 6: time=74100 ns, comps=2527, swaps=0, shifts=2434
+  run 7: time=76500 ns, comps=2527, swaps=0, shifts=2434
+  run 8: time=64500 ns, comps=2527, swaps=0, shifts=2434
+  run 9: time=78500 ns, comps=2527, swaps=0, shifts=2434
+  run 10: time=65800 ns, comps=2527, swaps=0, shifts=2434
+ => mediana (time=74100 ns, comps=2527, swaps=0, shifts=2434)
+Cargando dataset: citas_100_casi_ordenadas.csv
+ - n = 100
+ Ejecutando BubbleSort en citas_100_casi_ordenadas.csv
+  run 1: time=147500 ns, comps=3354, swaps=215, shifts=0
+  run 2: time=136900 ns, comps=3354, swaps=215, shifts=0
+  run 3: time=138300 ns, comps=3354, swaps=215, shifts=0
+  run 4: time=114500 ns, comps=3354, swaps=215, shifts=0
+  run 5: time=119300 ns, comps=3354, swaps=215, shifts=0
+  run 6: time=80000 ns, comps=3354, swaps=215, shifts=0
+  run 7: time=77500 ns, comps=3354, swaps=215, shifts=0
+  run 8: time=87200 ns, comps=3354, swaps=215, shifts=0
+  run 9: time=125200 ns, comps=3354, swaps=215, shifts=0
+  run 10: time=124300 ns, comps=3354, swaps=215, shifts=0
+ => mediana (time=114500 ns, comps=3354, swaps=215, shifts=0)
+ Ejecutando SelectionSort en citas_100_casi_ordenadas.csv
+  run 1: time=148600 ns, comps=4950, swaps=5, shifts=0
+  run 2: time=158800 ns, comps=4950, swaps=5, shifts=0
+  run 3: time=223800 ns, comps=4950, swaps=5, shifts=0
+  run 4: time=147400 ns, comps=4950, swaps=5, shifts=0
+  run 5: time=145000 ns, comps=4950, swaps=5, shifts=0
+  run 6: time=196200 ns, comps=4950, swaps=5, shifts=0
+  run 7: time=182000 ns, comps=4950, swaps=5, shifts=0
+  run 8: time=175100 ns, comps=4950, swaps=5, shifts=0
+  run 9: time=64700 ns, comps=4950, swaps=5, shifts=0
+  run 10: time=47200 ns, comps=4950, swaps=5, shifts=0
+ => mediana (time=147400 ns, comps=4950, swaps=5, shifts=0)
+ Ejecutando InsertionSort en citas_100_casi_ordenadas.csv
+  run 1: time=15300 ns, comps=314, swaps=0, shifts=215
+  run 2: time=13600 ns, comps=314, swaps=0, shifts=215
+  run 3: time=11300 ns, comps=314, swaps=0, shifts=215
+  run 4: time=28100 ns, comps=314, swaps=0, shifts=215
+  run 5: time=54700 ns, comps=314, swaps=0, shifts=215
+  run 6: time=14400 ns, comps=314, swaps=0, shifts=215
+  run 7: time=14500 ns, comps=314, swaps=0, shifts=215
+  run 8: time=16400 ns, comps=314, swaps=0, shifts=215
+  run 9: time=11100 ns, comps=314, swaps=0, shifts=215
+  run 10: time=54500 ns, comps=314, swaps=0, shifts=215
+ => mediana (time=16400 ns, comps=314, swaps=0, shifts=215)
+Cargando dataset: pacientes_500.csv
+ - n = 500
+ Ejecutando BubbleSort en pacientes_500.csv
+  run 1: time=1705800 ns, comps=124084, swaps=54473, shifts=0
+  run 2: time=2577500 ns, comps=124084, swaps=54473, shifts=0
+  run 3: time=1135300 ns, comps=124084, swaps=54473, shifts=0
+  run 4: time=1566700 ns, comps=124084, swaps=54473, shifts=0
+  run 5: time=465100 ns, comps=124084, swaps=54473, shifts=0
+  run 6: time=464100 ns, comps=124084, swaps=54473, shifts=0
+  run 7: time=516100 ns, comps=124084, swaps=54473, shifts=0
+  run 8: time=415100 ns, comps=124084, swaps=54473, shifts=0
+  run 9: time=477300 ns, comps=124084, swaps=54473, shifts=0
+  run 10: time=445100 ns, comps=124084, swaps=54473, shifts=0
+ => mediana (time=465100 ns, comps=124084, swaps=54473, shifts=0)
+ Ejecutando SelectionSort en pacientes_500.csv
+  run 1: time=798100 ns, comps=124750, swaps=482, shifts=0
+  run 2: time=721700 ns, comps=124750, swaps=482, shifts=0
+  run 3: time=1093500 ns, comps=124750, swaps=482, shifts=0
+  run 4: time=799500 ns, comps=124750, swaps=482, shifts=0
+  run 5: time=835600 ns, comps=124750, swaps=482, shifts=0
+  run 6: time=800200 ns, comps=124750, swaps=482, shifts=0
+  run 7: time=432100 ns, comps=124750, swaps=482, shifts=0
+  run 8: time=336300 ns, comps=124750, swaps=482, shifts=0
+  run 9: time=246000 ns, comps=124750, swaps=482, shifts=0
+  run 10: time=325900 ns, comps=124750, swaps=482, shifts=0
+ => mediana (time=432100 ns, comps=124750, swaps=482, shifts=0)
+ Ejecutando InsertionSort en pacientes_500.csv
+  run 1: time=2064000 ns, comps=54972, swaps=0, shifts=54473
+  run 2: time=342300 ns, comps=54972, swaps=0, shifts=54473
+  run 3: time=370600 ns, comps=54972, swaps=0, shifts=54473
+  run 4: time=341200 ns, comps=54972, swaps=0, shifts=54473
+  run 5: time=1299400 ns, comps=54972, swaps=0, shifts=54473
+  run 6: time=389800 ns, comps=54972, swaps=0, shifts=54473
+  run 7: time=357900 ns, comps=54972, swaps=0, shifts=54473
+  run 8: time=376900 ns, comps=54972, swaps=0, shifts=54473
+  run 9: time=407200 ns, comps=54972, swaps=0, shifts=54473
+  run 10: time=399600 ns, comps=54972, swaps=0, shifts=54473
+ => mediana (time=389800 ns, comps=54972, swaps=0, shifts=54473)
+Cargando dataset: inventario_500_inverso.csv
+ - n = 500
+ Ejecutando BubbleSort en inventario_500_inverso.csv
+  run 1: time=561000 ns, comps=124750, swaps=124750, shifts=0
+  run 2: time=709000 ns, comps=124750, swaps=124750, shifts=0
+  run 3: time=1146100 ns, comps=124750, swaps=124750, shifts=0
+  run 4: time=1080200 ns, comps=124750, swaps=124750, shifts=0
+  run 5: time=990100 ns, comps=124750, swaps=124750, shifts=0
+  run 6: time=1414500 ns, comps=124750, swaps=124750, shifts=0
+  run 7: time=534900 ns, comps=124750, swaps=124750, shifts=0
+  run 8: time=540300 ns, comps=124750, swaps=124750, shifts=0
+  run 9: time=565900 ns, comps=124750, swaps=124750, shifts=0
+  run 10: time=590600 ns, comps=124750, swaps=124750, shifts=0
+ => mediana (time=590600 ns, comps=124750, swaps=124750, shifts=0)
+ Ejecutando SelectionSort en inventario_500_inverso.csv
+  run 1: time=240600 ns, comps=124750, swaps=250, shifts=0
+  run 2: time=159600 ns, comps=124750, swaps=250, shifts=0
+  run 3: time=185100 ns, comps=124750, swaps=250, shifts=0
+  run 4: time=198000 ns, comps=124750, swaps=250, shifts=0
+  run 5: time=194600 ns, comps=124750, swaps=250, shifts=0
+  run 6: time=424400 ns, comps=124750, swaps=250, shifts=0
+  run 7: time=207800 ns, comps=124750, swaps=250, shifts=0
+  run 8: time=185000 ns, comps=124750, swaps=250, shifts=0
+  run 9: time=229600 ns, comps=124750, swaps=250, shifts=0
+  run 10: time=198300 ns, comps=124750, swaps=250, shifts=0
+ => mediana (time=198300 ns, comps=124750, swaps=250, shifts=0)
+ Ejecutando InsertionSort en inventario_500_inverso.csv
+  run 1: time=7819500 ns, comps=124750, swaps=0, shifts=124750
+  run 2: time=779100 ns, comps=124750, swaps=0, shifts=124750
+  run 3: time=137800 ns, comps=124750, swaps=0, shifts=124750
+  run 4: time=133800 ns, comps=124750, swaps=0, shifts=124750
+  run 5: time=144200 ns, comps=124750, swaps=0, shifts=124750
+  run 6: time=126700 ns, comps=124750, swaps=0, shifts=124750
+  run 7: time=135300 ns, comps=124750, swaps=0, shifts=124750
+  run 8: time=139000 ns, comps=124750, swaps=0, shifts=124750
+  run 9: time=139200 ns, comps=124750, swaps=0, shifts=124750
+  run 10: time=131100 ns, comps=124750, swaps=0, shifts=124750
+ => mediana (time=135300 ns, comps=124750, swaps=0, shifts=124750)
+Resultados escritos en C:\Users\HP Elite Book\Documents\GitHub\ED_U2_APE_ComparacionAlgoritmosOrdenacion\resultados_ordenacion.csv
