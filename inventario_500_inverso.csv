@@ -1,0 +1,501 @@
+id;insumo;stock
+ITEM-0001;Esparadrapo 5cm x 5m;500
+ITEM-0002;Alcohol 70% 500ml;499
+ITEM-0003;Guantes Estériles Talla M;498
+ITEM-0004;Esparadrapo 2cm x 5m;497
+ITEM-0005;Solución Salina 0.9% 1L;496
+ITEM-0006;Guante Nitrilo Talla M;495
+ITEM-0007;Pipeta Pasteur;494
+ITEM-0008;Gasas 5x5 (paquete);493
+ITEM-0009;Gel Antiséptico 500ml;492
+ITEM-0010;Etiquetas Autoadhesivas;491
+ITEM-0011;Cloro 5% 1L;490
+ITEM-0012;Set Venopunción;489
+ITEM-0013;Aislador de Paciente;488
+ITEM-0014;Desinfectante Superficies 1L;487
+ITEM-0015;Cubrebocas Reutilizable;486
+ITEM-0016;Alcohol 70% 500ml;485
+ITEM-0017;Mascarilla Quirúrgica;484
+ITEM-0018;Bolsas Zip 100x;483
+ITEM-0019;Bata Reutilizable;482
+ITEM-0020;Gel Antiséptico 500ml;481
+ITEM-0021;Guantes de Látex Talla M;480
+ITEM-0022;Jeringa 5ml;479
+ITEM-0023;Guantes de Látex Talla M;478
+ITEM-0024;Termómetro Digital;477
+ITEM-0025;Guantes Examen Talla L;476
+ITEM-0026;Bolsa Estéril;475
+ITEM-0027;Mascarilla N95;474
+ITEM-0028;Bolsa Estéril;473
+ITEM-0029;Compresa Fría Instantánea;472
+ITEM-0030;Alcohol 70% 1L;471
+ITEM-0031;Guante Nitrilo Talla M;470
+ITEM-0032;Suturas Seda 3-0;469
+ITEM-0033;Bolsa Estéril;468
+ITEM-0034;Cloro 5% 1L;467
+ITEM-0035;Bolsas de Residuos Amarillas;466
+ITEM-0036;Solución Salina 0.9% 1L;465
+ITEM-0037;Cubrebocas Reutilizable;464
+ITEM-0038;Bolsa de Residuos Negros;463
+ITEM-0039;Tijeras Curvas 14cm;462
+ITEM-0040;Tijeras Curvas 14cm;461
+ITEM-0041;Etiquetas Autoadhesivas;460
+ITEM-0042;Pipeta Pasteur;459
+ITEM-0043;Gasas 10x10 (paquete);458
+ITEM-0044;Jeringa 10ml;457
+ITEM-0045;Pipeta Pasteur;456
+ITEM-0046;Gasas 5x5 (paquete);455
+ITEM-0047;Mandril ET 7.0;454
+ITEM-0048;Cubrebocas Reutilizable;453
+ITEM-0049;Máscara Ambu Pediátrica;452
+ITEM-0050;Bolsa de Suero 500ml;451
+ITEM-0051;Aguja 21G;450
+ITEM-0052;Termómetro Digital;449
+ITEM-0053;Guante Nitrilo Talla M;448
+ITEM-0054;Oxímetro de Pulso;447
+ITEM-0055;Catéter Venoso 20G;446
+ITEM-0056;Gel Antiséptico 500ml;445
+ITEM-0057;Bolsas Zip 100x;444
+ITEM-0058;Jeringa 10ml;443
+ITEM-0059;Desinfectante Superficies 1L;442
+ITEM-0060;Cubrebocas Reutilizable;441
+ITEM-0061;Catéter Venoso 20G;440
+ITEM-0062;Cinta Adhesiva;439
+ITEM-0063;Mascarilla Quirúrgica;438
+ITEM-0064;Termos Sellado 1L;437
+ITEM-0065;Gasas 10x10 (paquete);436
+ITEM-0066;Bata Reutilizable;435
+ITEM-0067;Máscara Ambu Pediátrica;434
+ITEM-0068;Tubo de Ensayo;433
+ITEM-0069;Tijeras Curvas 14cm;432
+ITEM-0070;Bata Desechable;431
+ITEM-0071;Gasas 5x5 (paquete);430
+ITEM-0072;Suturas Nylon 3-0;429
+ITEM-0073;Gasas 5x5 (paquete);428
+ITEM-0074;Esparadrapo 5cm x 5m;427
+ITEM-0075;Paquete Toallas Alcohol;426
+ITEM-0076;Bolsa de Residuos Negros;425
+ITEM-0077;Compresa Caliente;424
+ITEM-0078;Aguja 21G;423
+ITEM-0079;Esparadrapo 2cm x 5m;422
+ITEM-0080;Bolsa de Residuos Negros;421
+ITEM-0081;Gel Antiséptico 500ml;420
+ITEM-0082;Máscara Ambu Pediátrica;419
+ITEM-0083;Bolsa de Residuos Negros;418
+ITEM-0084;Cloro 5% 1L;417
+ITEM-0085;Voltímetro;416
+ITEM-0086;Mascarilla N95;415
+ITEM-0087;Gasas 5x5 (paquete);414
+ITEM-0088;Suturas Seda 3-0;413
+ITEM-0089;Aislador de Paciente;412
+ITEM-0090;Etiquetas Autoadhesivas;411
+ITEM-0091;Tubo de Ensayo;410
+ITEM-0092;Pinza Mosquito;409
+ITEM-0093;Tubo de Ensayo;408
+ITEM-0094;Guante Nitrilo Talla L;407
+ITEM-0095;Alcohol 70% 500ml;406
+ITEM-0096;Bolsa Estéril;405
+ITEM-0097;Termos Sellado 1L;404
+ITEM-0098;Máscara Ambu Adulto;403
+ITEM-0099;Jeringa 5ml;402
+ITEM-0100;Bolsa de Suero 500ml;401
+ITEM-0101;Oxímetro de Pulso;400
+ITEM-0102;Compresa Caliente;399
+ITEM-0103;Cloro 5% 1L;398
+ITEM-0104;Bata Reutilizable;397
+ITEM-0105;Jeringa 10ml;396
+ITEM-0106;Cinta Adhesiva;395
+ITEM-0107;Suturas Seda 3-0;394
+ITEM-0108;Termómetro Digital;393
+ITEM-0109;Voltímetro;392
+ITEM-0110;Guante Nitrilo Talla S;391
+ITEM-0111;Aislador de Paciente;390
+ITEM-0112;Solución Salina 0.9% 1L;389
+ITEM-0113;Compresa Caliente;388
+ITEM-0114;Termómetro Digital;387
+ITEM-0115;Cubrebocas Reutilizable;386
+ITEM-0116;Bolsa de Residuos Negros;385
+ITEM-0117;Guantes de Látex Talla M;384
+ITEM-0118;Paquete Toallas Alcohol;383
+ITEM-0119;Esparadrapo 2cm x 5m;382
+ITEM-0120;Solución Salina 0.9% 1L;381
+ITEM-0121;Tubo de Ensayo;380
+ITEM-0122;Guantes Examen Talla L;379
+ITEM-0123;Esparadrapo 2cm x 5m;378
+ITEM-0124;Bata Reutilizable;377
+ITEM-0125;Bolsas Zip 100x;376
+ITEM-0126;Guantes Estériles Talla M;375
+ITEM-0127;Bata Reutilizable;374
+ITEM-0128;Guante Nitrilo Talla M;373
+ITEM-0129;Termómetro Digital;372
+ITEM-0130;Suturas Seda 3-0;371
+ITEM-0131;Set Venopunción;370
+ITEM-0132;Bolsas Zip 100x;369
+ITEM-0133;Termos Sellado 1L;368
+ITEM-0134;Bolsa de Residuos Negros;367
+ITEM-0135;Máscara Ambu Pediátrica;366
+ITEM-0136;Bata Desechable;365
+ITEM-0137;Guantes Estériles Talla M;364
+ITEM-0138;Bolsas de Residuos Amarillas;363
+ITEM-0139;Guante Nitrilo Talla L;362
+ITEM-0140;Catéter Venoso 20G;361
+ITEM-0141;Compresa Fría Instantánea;360
+ITEM-0142;Mandril ET 7.0;359
+ITEM-0143;Termos Sellado 1L;358
+ITEM-0144;Guante Nitrilo Talla L;357
+ITEM-0145;Guantes Estériles Talla M;356
+ITEM-0146;Bata Desechable;355
+ITEM-0147;Aislador de Paciente;354
+ITEM-0148;Bolsas de Residuos Rojas;353
+ITEM-0149;Compresa Fría Instantánea;352
+ITEM-0150;Termómetro Digital;351
+ITEM-0151;Tijeras Curvas 14cm;350
+ITEM-0152;Set Venopunción;349
+ITEM-0153;Guante Nitrilo Talla M;348
+ITEM-0154;Cloro 5% 1L;347
+ITEM-0155;Pinza Adson;346
+ITEM-0156;Cinta Métrica 2m;345
+ITEM-0157;Pinza Adson;344
+ITEM-0158;Suturas Seda 3-0;343
+ITEM-0159;Etiquetas Autoadhesivas;342
+ITEM-0160;Etiquetas Autoadhesivas;341
+ITEM-0161;Toallas Húmedas Antisépticas;340
+ITEM-0162;Máscara Ambu Adulto;339
+ITEM-0163;Alcohol 70% 1L;338
+ITEM-0164;Suturas Seda 3-0;337
+ITEM-0165;Paquete Toallas Alcohol;336
+ITEM-0166;Esparadrapo 5cm x 5m;335
+ITEM-0167;Pinza Mosquito;334
+ITEM-0168;Guante Nitrilo Talla M;333
+ITEM-0169;Guantes Examen Talla L;332
+ITEM-0170;Pipeta Pasteur;331
+ITEM-0171;Catéter Venoso 18G;330
+ITEM-0172;Guantes Estériles Talla M;329
+ITEM-0173;Guantes Estériles Talla M;328
+ITEM-0174;Guante Nitrilo Talla M;327
+ITEM-0175;Voltímetro;326
+ITEM-0176;Cubrebocas Reutilizable;325
+ITEM-0177;Alcohol 70% 1L;324
+ITEM-0178;Mascarilla Quirúrgica;323
+ITEM-0179;Gasas 10x10 (paquete);322
+ITEM-0180;Termómetro Digital;321
+ITEM-0181;Oxímetro de Pulso;320
+ITEM-0182;Guantes de Látex Talla M;319
+ITEM-0183;Tubo de Ensayo;318
+ITEM-0184;Termos Sellado 1L;317
+ITEM-0185;Bolsas de Residuos Rojas;316
+ITEM-0186;Cubrebocas Reutilizable;315
+ITEM-0187;Catéter Venoso 18G;314
+ITEM-0188;Bolsa de Residuos Negros;313
+ITEM-0189;Oxímetro de Pulso;312
+ITEM-0190;Bata Reutilizable;311
+ITEM-0191;Gel Antiséptico 500ml;310
+ITEM-0192;Guantes de Látex Talla M;309
+ITEM-0193;Bolsas de Residuos Rojas;308
+ITEM-0194;Pinza Mosquito;307
+ITEM-0195;Cubrebocas Reutilizable;306
+ITEM-0196;Oxímetro de Pulso;305
+ITEM-0197;Mascarilla N95;304
+ITEM-0198;Esparadrapo 2cm x 5m;303
+ITEM-0199;Gasas 10x10 (paquete);302
+ITEM-0200;Catéter Venoso 20G;301
+ITEM-0201;Pipeta Pasteur;300
+ITEM-0202;Mandril ET 7.0;299
+ITEM-0203;Aislador de Paciente;298
+ITEM-0204;Bolsa Estéril;297
+ITEM-0205;Bata Desechable;296
+ITEM-0206;Bolsa de Residuos Negros;295
+ITEM-0207;Tubo de Ensayo;294
+ITEM-0208;Catéter Venoso 18G;293
+ITEM-0209;Pinza Adson;292
+ITEM-0210;Suturas Nylon 3-0;291
+ITEM-0211;Pinza Mosquito;290
+ITEM-0212;Bolsas de Residuos Amarillas;289
+ITEM-0213;Oxímetro de Pulso;288
+ITEM-0214;Máscara Ambu Pediátrica;287
+ITEM-0215;Bolsas Zip 100x;286
+ITEM-0216;Máscara Ambu Adulto;285
+ITEM-0217;Gel Antiséptico 500ml;284
+ITEM-0218;Mascarilla N95;283
+ITEM-0219;Cubrebocas Reutilizable;282
+ITEM-0220;Suturas Nylon 3-0;281
+ITEM-0221;Bolsa de Residuos Negros;280
+ITEM-0222;Guante Nitrilo Talla S;279
+ITEM-0223;Pipeta Pasteur;278
+ITEM-0224;Guante Nitrilo Talla L;277
+ITEM-0225;Bolsa Estéril;276
+ITEM-0226;Esparadrapo 2cm x 5m;275
+ITEM-0227;Bolsa de Suero 500ml;274
+ITEM-0228;Termos Sellado 1L;273
+ITEM-0229;Bolsas de Residuos Rojas;272
+ITEM-0230;Paquete Toallas Alcohol;271
+ITEM-0231;Gasas 5x5 (paquete);270
+ITEM-0232;Set Venopunción;269
+ITEM-0233;Guantes Estériles Talla M;268
+ITEM-0234;Guantes Examen Talla L;267
+ITEM-0235;Mascarilla Quirúrgica;266
+ITEM-0236;Mascarilla N95;265
+ITEM-0237;Máscara Ambu Pediátrica;264
+ITEM-0238;Termos Sellado 1L;263
+ITEM-0239;Mandril ET 7.0;262
+ITEM-0240;Gasas 5x5 (paquete);261
+ITEM-0241;Esparadrapo 2cm x 5m;260
+ITEM-0242;Máscara Ambu Adulto;259
+ITEM-0243;Desinfectante Superficies 1L;258
+ITEM-0244;Gel Antiséptico 500ml;257
+ITEM-0245;Desinfectante Superficies 1L;256
+ITEM-0246;Gasas 10x10 (paquete);255
+ITEM-0247;Bolsas de Residuos Amarillas;254
+ITEM-0248;Guantes Examen Talla L;253
+ITEM-0249;Toallas Húmedas Antisépticas;252
+ITEM-0250;Guantes Estériles Talla M;251
+ITEM-0251;Gel Antiséptico 500ml;250
+ITEM-0252;Pinza Mosquito;249
+ITEM-0253;Pinza Mosquito;248
+ITEM-0254;Pipeta Pasteur;247
+ITEM-0255;Máscara Ambu Adulto;246
+ITEM-0256;Esparadrapo 5cm x 5m;245
+ITEM-0257;Set Venopunción;244
+ITEM-0258;Cubrebocas Reutilizable;243
+ITEM-0259;Esparadrapo 5cm x 5m;242
+ITEM-0260;Mascarilla N95;241
+ITEM-0261;Tubo de Ensayo;240
+ITEM-0262;Mascarilla Quirúrgica;239
+ITEM-0263;Máscara Ambu Adulto;238
+ITEM-0264;Bolsas de Residuos Amarillas;237
+ITEM-0265;Esparadrapo 2cm x 5m;236
+ITEM-0266;Esparadrapo 2cm x 5m;235
+ITEM-0267;Gasas 10x10 (paquete);234
+ITEM-0268;Máscara Ambu Pediátrica;233
+ITEM-0269;Termos Sellado 1L;232
+ITEM-0270;Bolsa de Suero 500ml;231
+ITEM-0271;Tubo de Ensayo;230
+ITEM-0272;Gasas 5x5 (paquete);229
+ITEM-0273;Gasas 10x10 (paquete);228
+ITEM-0274;Cloro 5% 1L;227
+ITEM-0275;Termómetro Digital;226
+ITEM-0276;Pipeta Pasteur;225
+ITEM-0277;Cubrebocas Reutilizable;224
+ITEM-0278;Solución Salina 0.9% 1L;223
+ITEM-0279;Tijeras Curvas 14cm;222
+ITEM-0280;Bata Desechable;221
+ITEM-0281;Esparadrapo 2cm x 5m;220
+ITEM-0282;Bolsas Zip 100x;219
+ITEM-0283;Pinza Mosquito;218
+ITEM-0284;Guante Nitrilo Talla L;217
+ITEM-0285;Desinfectante Superficies 1L;216
+ITEM-0286;Jeringa 10ml;215
+ITEM-0287;Bata Desechable;214
+ITEM-0288;Catéter Venoso 20G;213
+ITEM-0289;Bata Reutilizable;212
+ITEM-0290;Máscara Ambu Pediátrica;211
+ITEM-0291;Compresa Fría Instantánea;210
+ITEM-0292;Guante Nitrilo Talla L;209
+ITEM-0293;Máscara Ambu Adulto;208
+ITEM-0294;Pipeta Pasteur;207
+ITEM-0295;Cinta Métrica 2m;206
+ITEM-0296;Guante Nitrilo Talla L;205
+ITEM-0297;Bolsa de Residuos Negros;204
+ITEM-0298;Gasas 10x10 (paquete);203
+ITEM-0299;Pinza Adson;202
+ITEM-0300;Oxímetro de Pulso;201
+ITEM-0301;Termómetro Digital;200
+ITEM-0302;Desinfectante Superficies 1L;199
+ITEM-0303;Bolsa de Residuos Negros;198
+ITEM-0304;Alcohol 70% 1L;197
+ITEM-0305;Bolsa Estéril;196
+ITEM-0306;Jeringa 5ml;195
+ITEM-0307;Esparadrapo 5cm x 5m;194
+ITEM-0308;Pinza Adson;193
+ITEM-0309;Jeringa 5ml;192
+ITEM-0310;Bolsa de Suero 500ml;191
+ITEM-0311;Termos Sellado 1L;190
+ITEM-0312;Pinza Mosquito;189
+ITEM-0313;Pipeta Pasteur;188
+ITEM-0314;Suturas Nylon 3-0;187
+ITEM-0315;Tijeras Curvas 14cm;186
+ITEM-0316;Jeringa 10ml;185
+ITEM-0317;Alcohol 70% 1L;184
+ITEM-0318;Suturas Nylon 3-0;183
+ITEM-0319;Bolsas de Residuos Rojas;182
+ITEM-0320;Etiquetas Autoadhesivas;181
+ITEM-0321;Esparadrapo 2cm x 5m;180
+ITEM-0322;Bolsa de Suero 500ml;179
+ITEM-0323;Gel Antiséptico 500ml;178
+ITEM-0324;Cubrebocas Reutilizable;177
+ITEM-0325;Termómetro Digital;176
+ITEM-0326;Guantes Examen Talla L;175
+ITEM-0327;Bolsas Zip 100x;174
+ITEM-0328;Bolsas de Residuos Rojas;173
+ITEM-0329;Aislador de Paciente;172
+ITEM-0330;Etiquetas Autoadhesivas;171
+ITEM-0331;Catéter Venoso 18G;170
+ITEM-0332;Aguja 21G;169
+ITEM-0333;Mandril ET 7.0;168
+ITEM-0334;Guantes de Látex Talla M;167
+ITEM-0335;Alcohol 70% 500ml;166
+ITEM-0336;Alcohol 70% 500ml;165
+ITEM-0337;Bolsa de Residuos Negros;164
+ITEM-0338;Desinfectante Superficies 1L;163
+ITEM-0339;Aislador de Paciente;162
+ITEM-0340;Mandril ET 7.0;161
+ITEM-0341;Pipeta Pasteur;160
+ITEM-0342;Pinza Mosquito;159
+ITEM-0343;Gasas 5x5 (paquete);158
+ITEM-0344;Mascarilla Quirúrgica;157
+ITEM-0345;Solución Salina 0.9% 1L;156
+ITEM-0346;Suturas Nylon 3-0;155
+ITEM-0347;Termómetro Digital;154
+ITEM-0348;Esparadrapo 2cm x 5m;153
+ITEM-0349;Guante Nitrilo Talla L;152
+ITEM-0350;Guante Nitrilo Talla L;151
+ITEM-0351;Pinza Mosquito;150
+ITEM-0352;Catéter Venoso 18G;149
+ITEM-0353;Compresa Fría Instantánea;148
+ITEM-0354;Pipeta Pasteur;147
+ITEM-0355;Bolsa Estéril;146
+ITEM-0356;Bolsa de Suero 500ml;145
+ITEM-0357;Suturas Seda 3-0;144
+ITEM-0358;Gel Antiséptico 500ml;143
+ITEM-0359;Termómetro Digital;142
+ITEM-0360;Cubrebocas Reutilizable;141
+ITEM-0361;Mascarilla N95;140
+ITEM-0362;Suturas Nylon 3-0;139
+ITEM-0363;Aguja 21G;138
+ITEM-0364;Compresa Caliente;137
+ITEM-0365;Termómetro Digital;136
+ITEM-0366;Etiquetas Autoadhesivas;135
+ITEM-0367;Voltímetro;134
+ITEM-0368;Mandril ET 7.0;133
+ITEM-0369;Etiquetas Autoadhesivas;132
+ITEM-0370;Guantes de Látex Talla M;131
+ITEM-0371;Bolsa Estéril;130
+ITEM-0372;Oxímetro de Pulso;129
+ITEM-0373;Bolsa de Suero 500ml;128
+ITEM-0374;Cinta Métrica 2m;127
+ITEM-0375;Cubrebocas Reutilizable;126
+ITEM-0376;Esparadrapo 2cm x 5m;125
+ITEM-0377;Guantes de Látex Talla M;124
+ITEM-0378;Bata Desechable;123
+ITEM-0379;Termos Sellado 1L;122
+ITEM-0380;Catéter Venoso 20G;121
+ITEM-0381;Gasas 5x5 (paquete);120
+ITEM-0382;Bolsa de Residuos Negros;119
+ITEM-0383;Máscara Ambu Adulto;118
+ITEM-0384;Etiquetas Autoadhesivas;117
+ITEM-0385;Guantes de Látex Talla M;116
+ITEM-0386;Bolsas de Residuos Rojas;115
+ITEM-0387;Jeringa 5ml;114
+ITEM-0388;Máscara Ambu Pediátrica;113
+ITEM-0389;Voltímetro;112
+ITEM-0390;Catéter Venoso 18G;111
+ITEM-0391;Gel Antiséptico 500ml;110
+ITEM-0392;Cloro 5% 1L;109
+ITEM-0393;Bolsas de Residuos Amarillas;108
+ITEM-0394;Bata Desechable;107
+ITEM-0395;Paquete Toallas Alcohol;106
+ITEM-0396;Mascarilla N95;105
+ITEM-0397;Mascarilla N95;104
+ITEM-0398;Guante Nitrilo Talla L;103
+ITEM-0399;Pinza Adson;102
+ITEM-0400;Jeringa 10ml;101
+ITEM-0401;Máscara Ambu Adulto;100
+ITEM-0402;Compresa Caliente;99
+ITEM-0403;Aislador de Paciente;98
+ITEM-0404;Bolsa de Residuos Negros;97
+ITEM-0405;Gasas 5x5 (paquete);96
+ITEM-0406;Guante Nitrilo Talla L;95
+ITEM-0407;Guantes de Látex Talla M;94
+ITEM-0408;Pinza Adson;93
+ITEM-0409;Desinfectante Superficies 1L;92
+ITEM-0410;Catéter Venoso 20G;91
+ITEM-0411;Bolsa de Suero 500ml;90
+ITEM-0412;Etiquetas Autoadhesivas;89
+ITEM-0413;Oxímetro de Pulso;88
+ITEM-0414;Máscara Ambu Adulto;87
+ITEM-0415;Aguja 21G;86
+ITEM-0416;Bata Reutilizable;85
+ITEM-0417;Bata Desechable;84
+ITEM-0418;Cinta Adhesiva;83
+ITEM-0419;Oxímetro de Pulso;82
+ITEM-0420;Gel Antiséptico 500ml;81
+ITEM-0421;Máscara Ambu Adulto;80
+ITEM-0422;Bata Desechable;79
+ITEM-0423;Bolsas de Residuos Rojas;78
+ITEM-0424;Solución Salina 0.9% 1L;77
+ITEM-0425;Alcohol 70% 1L;76
+ITEM-0426;Guante Nitrilo Talla L;75
+ITEM-0427;Gel Antiséptico 500ml;74
+ITEM-0428;Suturas Nylon 3-0;73
+ITEM-0429;Compresa Fría Instantánea;72
+ITEM-0430;Cinta Métrica 2m;71
+ITEM-0431;Bolsa de Suero 500ml;70
+ITEM-0432;Desinfectante Superficies 1L;69
+ITEM-0433;Mascarilla Quirúrgica;68
+ITEM-0434;Tubo de Ensayo;67
+ITEM-0435;Compresa Caliente;66
+ITEM-0436;Jeringa 10ml;65
+ITEM-0437;Cinta Métrica 2m;64
+ITEM-0438;Bata Desechable;63
+ITEM-0439;Etiquetas Autoadhesivas;62
+ITEM-0440;Catéter Venoso 20G;61
+ITEM-0441;Cubrebocas Reutilizable;60
+ITEM-0442;Gasas 10x10 (paquete);59
+ITEM-0443;Alcohol 70% 1L;58
+ITEM-0444;Máscara Ambu Adulto;57
+ITEM-0445;Mascarilla Quirúrgica;56
+ITEM-0446;Gel Antiséptico 500ml;55
+ITEM-0447;Tijeras Curvas 14cm;54
+ITEM-0448;Aislador de Paciente;53
+ITEM-0449;Voltímetro;52
+ITEM-0450;Esparadrapo 5cm x 5m;51
+ITEM-0451;Alcohol 70% 1L;50
+ITEM-0452;Catéter Venoso 20G;49
+ITEM-0453;Mandril ET 7.0;48
+ITEM-0454;Tubo de Ensayo;47
+ITEM-0455;Jeringa 5ml;46
+ITEM-0456;Alcohol 70% 1L;45
+ITEM-0457;Guantes de Látex Talla M;44
+ITEM-0458;Guantes Estériles Talla M;43
+ITEM-0459;Catéter Venoso 20G;42
+ITEM-0460;Alcohol 70% 1L;41
+ITEM-0461;Desinfectante Superficies 1L;40
+ITEM-0462;Alcohol 70% 1L;39
+ITEM-0463;Termos Sellado 1L;38
+ITEM-0464;Tijeras Curvas 14cm;37
+ITEM-0465;Gel Antiséptico 500ml;36
+ITEM-0466;Mandril ET 7.0;35
+ITEM-0467;Esparadrapo 5cm x 5m;34
+ITEM-0468;Guantes Estériles Talla M;33
+ITEM-0469;Mascarilla Quirúrgica;32
+ITEM-0470;Guantes de Látex Talla M;31
+ITEM-0471;Toallas Húmedas Antisépticas;30
+ITEM-0472;Bolsas de Residuos Amarillas;29
+ITEM-0473;Compresa Fría Instantánea;28
+ITEM-0474;Aguja 21G;27
+ITEM-0475;Paquete Toallas Alcohol;26
+ITEM-0476;Cubrebocas Reutilizable;25
+ITEM-0477;Cinta Métrica 2m;24
+ITEM-0478;Bata Reutilizable;23
+ITEM-0479;Cinta Adhesiva;22
+ITEM-0480;Alcohol 70% 500ml;21
+ITEM-0481;Compresa Caliente;20
+ITEM-0482;Desinfectante Superficies 1L;19
+ITEM-0483;Gel Antiséptico 500ml;18
+ITEM-0484;Toallas Húmedas Antisépticas;17
+ITEM-0485;Cubrebocas Reutilizable;16
+ITEM-0486;Catéter Venoso 20G;15
+ITEM-0487;Mandril ET 7.0;14
+ITEM-0488;Máscara Ambu Pediátrica;13
+ITEM-0489;Mandril ET 7.0;12
+ITEM-0490;Pinza Mosquito;11
+ITEM-0491;Catéter Venoso 20G;10
+ITEM-0492;Pipeta Pasteur;9
+ITEM-0493;Bolsa de Residuos Negros;8
+ITEM-0494;Solución Salina 0.9% 1L;7
+ITEM-0495;Catéter Venoso 18G;6
+ITEM-0496;Jeringa 5ml;5
+ITEM-0497;Desinfectante Superficies 1L;4
+ITEM-0498;Set Venopunción;3
+ITEM-0499;Catéter Venoso 20G;2
+ITEM-0500;Bolsa de Suero 500ml;1
